@@ -1,0 +1,28 @@
+Public class Employee{
+private int empID;
+    private String name;
+    private String telephoneNumber;
+ 
+
+
+//Setter
+public void setID(int ID) {
+        this.empID = ID;
+    }
+
+    // Getter
+    public int getID() {
+        return this.empID;
+    }
+}
+
+public class GettersAndSettersMain {
+    public static void main(String args[]) {
+        Employee e1 = new Employee();
+        
+        e1.setID(12);
+       
+
+        System.out.println( e1.getID());
+    }
+}
