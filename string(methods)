@@ -1,0 +1,21 @@
+public class methods {
+          
+          public static void main(String[] args) {
+                    String name="samrat";
+                    System.out.println(name.toUpperCase());
+                    System.out.println(name.toLowerCase());
+                    System.out.println(name.trim());// remove the spaces from start and end
+                    System.out.println(name.startsWith("sam"));
+
+                    String colour="brown";
+                     char col[]=colour.toCharArray();
+                     for(char i:col){
+                              System.out.println(i);
+                     }
+
+                     int age=10;
+                     String sir= String.valueOf();
+                    
+                    
+          }
+}
