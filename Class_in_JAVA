@@ -1,0 +1,19 @@
+public class Employee {
+    private int empID;
+    private String name;
+    private String telephoneNumber;
+
+    public int info(int empID){
+        return empID;
+    }
+   
+    }
+
+public class MyMain {
+    public static void main(String args[]) {
+        Employee e1= new Employee();
+        int value = e1.info(3);
+        
+    }
+}
+   
